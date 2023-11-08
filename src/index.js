@@ -18,6 +18,7 @@ function main() {
             let newDuck = {
                 name: e.target["duck-name-input"].value,
                 img_url: e.target["duck-image-input"].value,
+                likes: 0,
             }
             renderDucks(newDuck);
         })
